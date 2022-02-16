@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variantes */
+:root {
+  /* Cores */
+  --Background-da-pagina: #eaeaea;
+  --Background-da-receita: #ffffff;
+  --Títulos-e-subtítulos: #1b1b1b;
+  --Footer-e-legenda-da-imagem: #8f8f8f;
+  --Outros-textos: #39393a;
+}
+
+body {
+  background-color: var(--Background-da-pagina);
+  font-family: 'Roboto', sans-serif;
+  margin: 1.87rem 12.5rem 3.75rem 12.5rem;
+}
+
+#color {
+  background-color: var(--Background-da-receita);
+  margin: auto;
+  border-radius: 0.62rem;
+}
+
+/* ============= Inicio ========================= */
+#home {
+  padding-top: 3.12rem;
+  border-radius: 0.62rem;
+}
+
+#home h1 {
+  position: relative;
+  top: 1.25rem;
+  text-align: center;
+  font-size: 700 1.75rem 'Roboto', sans-serif;
+  color: var(--Títulos-e-subtítulos);
+}
+
+img {
+  height: 15.62rem;
+  width: 51.25rem;
+  margin-left: 1.25rem;
+  margin-top: 2.5rem;
+  object-fit: cover;
+  border-radius: 0.62rem;
+}
+
+figcaption {
+  text-align: right;
+  position: relative;
+  right: 1.87rem;
+  font-family: 400 0.75rem 'Roboto', sans-serif;
+  color: var(--Footer-e-legenda-da-imagem);
+}
+
+/* ============== Ingrdientes ============= */
+.ingredientes h2 {
+  text-align: center;
+  position: relative;
+  bottom: 0.937rem;
+  font-size: 700 1.75rem 'Roboto', sans-serif;
+  color: var(--Títulos-e-subtítulos);
+}
+
+.ingredientes ul {
+  position: relative;
+  left: 3.125rem;
+  line-height: 3.125rem;
+  font-size: 400 1rem 'Roboto', sans-serif;
+  color: var(--Outros-textos);
+}
+
+/* =============== Preparo =============== */
+.preparo h2 {
+  text-align: center;
+  font-size: 700 1.75rem 'Robot', sans-serif;
+  color: var(--Títulos-e-subtítulos);
+}
+
+.preparo ol {
+  position: relative;
+  left: 2.5rem;
+  line-height: 3.125rem;
+  font-size: 400 1rem 'Roboto', sans-serif;
+  color: var(--Outros-textos);
+}
+
+.preparo p {
+  position: relative;
+  bottom: 1.562rem;
+}
+
+#li {
+  position: relative;
+  bottom: 1.562rem;
+}
+
+/* ================== Info ================ */
+.info {
+  padding-bottom: 1.875rem;
+}
+
+.info h2 {
+  text-align: center;
+  position: relative;
+  bottom: 0.937rem;
+  font-size: 700 1.75rem 'Robot', sans-serif;
+  color: var(--Títulos-e-subtítulos);
+}
+
+.info p {
+  position: relative;
+  left: 1.25rem;
+  font-size: 400 1rem 'Roboto', sans-serif;
+  color: var(--Outros-textos);
+}
+
+/* =============== Fim ============== */
+#final {
+  text-align: center;
+  position: relative;
+  top: 2.5rem;
+  font-size: 400 0.75rem 'Roboto', sans-serif;
+  color: var(--Footer-e-legenda-da-imagem);
+}
